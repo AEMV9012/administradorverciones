@@ -1,0 +1,26 @@
+<%-- 
+    Document   : index
+    Created on : 29/10/2017, 07:55:09 PM
+    Author     : Usuario
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%!
+    String datos;
+   
+%>
+<%
+    datos = "compañeros de estudio Scriptlets";
+%>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>solucion al caso de estudio</title>
+    </head>
+    <body>
+        <h1>solucion al caso de estudio </h1>
+        <p> <%=datos%></p>
+    </body>
+</html>
